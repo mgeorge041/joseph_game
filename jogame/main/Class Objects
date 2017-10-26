@@ -1,0 +1,16 @@
+
+	Player(deck, hand)
+		passing deck manager to player from deck building scene to new game scene to game scene
+		player is created from game scene
+	Deck(cards)
+		deck is created from deck manager within deck building scene
+	Hand(cards)
+		hand is created from deck
+	Game board(spots)
+		board is created from game scene
+	Game spots(piece)
+		spots created in game board
+	Card(card type)
+		card created in deck
+	Piece(card type)
+		piece created from playing card
